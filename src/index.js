@@ -1,8 +1,12 @@
-const Koa = require("koa");
-const Router = require("koa-router");
-const bodyParser = require("koa-bodyparser");
+// const Koa = require("koa");
+// const Router = require("koa-router");
+// const bodyParser = require("koa-bodyparser");
+import Koa from "koa";
+import Router from "koa-router";
+import bodyParser from "koa-bodyparser";
 
-const api = require("./api");
+// const api = require("./api");
+import api from "./api/index.js";
 
 const app = new Koa();
 const router = new Router();
