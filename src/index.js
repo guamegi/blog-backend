@@ -1,11 +1,7 @@
-// const Koa = require("koa");
-// const Router = require("koa-router");
-// const bodyParser = require("koa-bodyparser");
 import Koa from "koa";
 import Router from "koa-router";
 import bodyParser from "koa-bodyparser";
 
-// const api = require("./api");
 import api from "./api/index.js";
 
 const app = new Koa();
